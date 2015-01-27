@@ -1,10 +1,10 @@
 	<!-- 3rd Page Begins --><!-- Blog List -->
-	<section data-role"page" id="blog">
+	<section data-role="page" id="blog">
 
 <?php include 'inc/header.inc.php'; ?>
 
-		<h1>Welcome To The Blog</h1>
-		<div data-role"content" id="postlist"><!-- Posts -->
+		<h1>Veratech Blog Snapshot</h1>
+		<div data-role"content" id="postList"><!-- Posts -->
 		
 		</div>
 
