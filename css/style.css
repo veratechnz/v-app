@@ -7,7 +7,6 @@
 	margin: 0 auto;
 }
 
-
 .footer-button-left,
 .footer-button-right {
     position: absolute;
@@ -22,4 +21,5 @@
     right: 0.4em;
 }
 
+.ui-icon-carat-r img{padding: 4px;}
 

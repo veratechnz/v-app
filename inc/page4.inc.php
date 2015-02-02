@@ -4,7 +4,7 @@
 <?php include 'inc/header.inc.php'; ?>
 
 		<div data-role="content">
-			<div id="mypost">
+			<div id="myPost">
 				
 			</div>
 		</div>
