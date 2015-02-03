@@ -10,9 +10,9 @@
 			<!-- Buttons -->
 			<div data-role="controlgroup">
 				<a href="#blog" class="ui-btn ui-corner-all">Blog</a>
-				<a href="#info" class="ui-btn ui-corner-all">Videos</a>
+				<a href="#videosPage" class="ui-btn ui-corner-all">Videos</a>
+				<a href="#info" class="ui-btn ui-corner-all">Audio</a>
 				<a href="#info" class="ui-btn ui-corner-all">Photos</a>
-				<a href="#info" class="ui-btn ui-corner-all">Tweets</a>
 			</div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, beatae, nesciunt officiis corrupti sequi deleniti numquam nisi placeat suscipit eaque modi exercitationem cumque accusantium eum reiciendis dicta quasi totam excepturi.</p>
 		</article><!-- content -->

@@ -22,4 +22,7 @@
 }
 
 .ui-icon-carat-r img{padding: 4px;}
+.ui-header.ui-bar-inherit{background-color: #184572;}
+.ui-footer-fixed.slideup.ui-bar-inherit{background-color: #184572;}
+.ui-title{color: #FCFDFF; text-shadow: none;}
 

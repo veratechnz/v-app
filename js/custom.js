@@ -35,6 +35,10 @@ function listPosts(data){
 
 }//listPosts ends
 
+
+
+
+
 function showPost(id){
 
 	$.getJSON('http://veratech.co.nz/blog/?json=get_post&post_id=' + id + '&callback=?', function(data){
@@ -43,7 +47,32 @@ function showPost(id){
 			$('#myPost').html(output);
 	});
 
-}
+ } //listPosts Ends
 
 
+
+
+
+ function listVideos(data){
+ 	//The data varaible acceses the youtube object data.
+ 	console.log(data);
+ 	for (var i = 0; i < data.feed.entry.length; i++) {
+ 		var title = data.feed.entry[i].title.$t;
+ 		var thumbnail = data.feed.entry[i].media$group.media$thumbnail[0].url;
+ 		var description = data.feed.entry[i].media$group.media$description.$t;
+ 		var id = data.feed.entry[i].id.$t.substring(38);
+
+ 		//Here is a modulo or remaider variable. 
+ 		var blocktype = ((i % 2 === 1)) ? 'b' : 'a';
+
+ 		var output = '<div class="ui-block' + blocktype + '"> \
+					  <h3 class="movieTitle">' + title + '</h3> \
+					  <img src="' + thumbnail + '"alt="' + title + '"> \
+					  </div>';
+
+ 	} //entries loop
+ 	$('#videoList').html(output);
+ } //listVideos ends
+
+    
 
